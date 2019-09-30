@@ -1,3 +1,5 @@
+# UNFEX, REFEX, FWINFO for Allwinner V316
+
 README for for UNFEX REFEX FWINFO scripts to use in Windows.
 Scripts were modified to work with Allwinner V316 firmware.
 FULL_IMG.FEX size is 16777216 bytes, and 2-system.img is 11010048 bytes.
