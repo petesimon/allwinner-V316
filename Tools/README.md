@@ -1,0 +1,2 @@
+# allwinner-V316
+Various tools for Windows/Linux including but not limited to scripts, Android mobile wifi apps and binary applications for Allwinner V316 (not V3) action cameras. Get more information at Goprawn forums https://www.goprawn.com and at the users group http://bit.ly/allwinnerv3-camera-group . Contact me directly at http://fb.com/psvangorp or via email at petesimon (at) yahoo.com ! Cheers.
