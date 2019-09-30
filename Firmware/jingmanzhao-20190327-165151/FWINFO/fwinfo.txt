@@ -1,0 +1,41 @@
+V316 FWINFO
+from 'petesimon' of Goprawn forums
+
+Built by:
+jingmanzhao
+
+Manufacturer:
+Sunchip
+
+LCD resolution:
+320 x 240
+
+LCD model:
+st7789v
+
+LCD touch panel:
+ft6336
+
+Product type:
+V316
+
+Software version:
+V3.0
+
+Linux kernel version:
+4.9.118
+
+Build time:
+2019-03-27 16:51:51
+
+Updated time:
+20190219
+
+Sensor:
+Imx386
+
+Sensor modules (drivers):
+imx278_mipi , imx386 , imx317
+
+Wifi:
+xradio

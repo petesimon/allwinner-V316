@@ -1,0 +1,261 @@
+/dev:
+total 0
+drwxr-xr-x    2 root     root           200 Sep 28 20:21 block
+crw-------    1 root     root      150,   0 Sep 28 20:21 cedar_dev
+drwxr-xr-x    2 root     root          1740 Sep 28 20:21 char
+crw-------    1 root     root        5,   1 Sep 28 20:21 console
+crw-------    1 root     root       10,  58 Sep 28 20:21 cpu_dma_latency
+drwxr-xr-x    5 root     root           100 Sep 28 20:21 disk
+crw-------    1 root     root      249,   0 Sep 28 20:21 disp
+crw-rw----    1 root     video      29,   0 Sep 28 20:21 fb0
+crw-rw----    1 root     video      29,   1 Sep 28 20:21 fb1
+crw-rw----    1 root     video      29,   2 Sep 28 20:21 fb2
+crw-rw----    1 root     video      29,   3 Sep 28 20:21 fb3
+crw-rw----    1 root     video      29,   4 Sep 28 20:21 fb4
+crw-rw----    1 root     video      29,   5 Sep 28 20:21 fb5
+crw-rw----    1 root     video      29,   6 Sep 28 20:21 fb6
+crw-rw----    1 root     video      29,   7 Sep 28 20:21 fb7
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 fd -> /proc/self/fd
+crw-rw-rw-    1 root     root        1,   7 Sep 28 20:21 full
+crw-------    1 root     root      247,   0 Sep 28 20:21 g2d
+crw-------    1 root     root      254,   0 Sep 28 20:21 gpiochip0
+crw-------    1 root     root      254,   1 Sep 28 20:21 gpiochip1
+crw-------    1 root     root      254,   2 Sep 28 20:21 gpiochip2
+crw-------    1 root     root      246,   0 Sep 28 20:21 hdmi
+crw-------    1 root     root       89,   0 Sep 28 20:21 i2c-0
+crw-------    1 root     root       89,   1 Sep 28 20:21 i2c-1
+crw-------    1 root     root       89,   2 Sep 28 20:21 i2c-2
+drwxr-xr-x    3 root     root           140 Sep 28 20:21 input
+crw-------    1 root     root       10,  63 Sep 28 20:21 ion
+crw-r-----    1 root     kmem        1,   2 Sep 28 20:21 kmem
+crw-r--r--    1 root     root        1,  11 Sep 28 20:21 kmsg
+crw-------    1 root     root      252,   0 Sep 28 20:21 media0
+crw-r-----    1 root     kmem        1,   1 Sep 28 20:21 mem
+crw-------    1 root     root       10,  55 Sep 28 20:21 memory_bandwidth
+brw-rw----    1 root     disk      179,   0 Sep 28 20:21 mmcblk0
+crw-------    1 root     root       90,   0 Sep 28 20:21 mtd0
+crw-------    1 root     root       90,   1 Sep 28 20:21 mtd0ro
+crw-------    1 root     root       90,   2 Sep 28 20:21 mtd1
+crw-------    1 root     root       90,   3 Sep 28 20:21 mtd1ro
+crw-------    1 root     root       90,   4 Sep 28 20:21 mtd2
+crw-------    1 root     root       90,   5 Sep 28 20:21 mtd2ro
+crw-------    1 root     root       90,   6 Sep 28 20:21 mtd3
+crw-------    1 root     root       90,   7 Sep 28 20:21 mtd3ro
+crw-------    1 root     root       90,   8 Sep 28 20:21 mtd4
+crw-------    1 root     root       90,   9 Sep 28 20:21 mtd4ro
+crw-------    1 root     root       90,  10 Sep 28 20:21 mtd5
+crw-------    1 root     root       90,  11 Sep 28 20:21 mtd5ro
+crw-------    1 root     root       90,  12 Sep 28 20:21 mtd6
+crw-------    1 root     root       90,  13 Sep 28 20:21 mtd6ro
+brw-rw----    1 root     disk       31,   0 Sep 28 20:21 mtdblock0
+brw-rw----    1 root     disk       31,   1 Sep 28 20:21 mtdblock1
+brw-rw----    1 root     disk       31,   2 Sep 28 20:21 mtdblock2
+brw-rw----    1 root     disk       31,   3 Sep 28 20:21 mtdblock3
+brw-rw----    1 root     disk       31,   4 Sep 28 20:21 mtdblock4
+brw-rw----    1 root     disk       31,   5 Sep 28 20:21 mtdblock5
+brw-rw----    1 root     disk       31,   6 Sep 28 20:21 mtdblock6
+crw-------    1 root     root       10,  57 Sep 28 20:21 network_latency
+crw-------    1 root     root       10,  56 Sep 28 20:21 network_throughput
+crw-rw-rw-    1 root     root        1,   3 Sep 28 20:21 null
+crw-rw-rw-    1 root     tty         5,   2 Sep 28 20:54 ptmx
+drwxr-xr-x    2 root     root             0 Sep 28 20:21 pts
+crw-rw-rw-    1 root     root        1,   8 Sep 28 20:21 random
+crw-rw-r--    1 root     root       10,  62 Sep 28 20:21 rfkill
+lrwxrwxrwx    1 root     root             4 Sep 28 20:21 rtc -> rtc0
+crw-------    1 root     root      253,   0 Sep 28 20:21 rtc0
+drwxrwxrwx    2 root     root            40 Sep 29  2019 shm
+drwxr-xr-x    3 root     root           180 Sep 28 20:21 snd
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 stderr -> /proc/self/fd/2
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 stdin -> /proc/self/fd/0
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 stdout -> /proc/self/fd/1
+crw-------    1 root     root       10,  60 Sep 28 20:21 sunxi-reg
+crw-------    1 root     root       10,  59 Sep 28 20:21 sunxi-wlan
+crw-------    1 root     root       10,  53 Sep 28 20:21 sunxi_eise
+crw-------    1 root     root       10,  54 Sep 28 20:21 sunxi_ise
+crw-------    1 root     root       10,  61 Sep 28 20:21 sunxi_soc_info
+crw-rw-rw-    1 root     tty         5,   0 Sep 28 20:21 tty
+crw--w----    1 root     root      248,   0 Sep 28 20:21 ttyS0
+crw-rw-rw-    1 root     root        1,   9 Sep 28 20:21 urandom
+drwxr-xr-x    3 root     root            60 Sep 28 20:21 usb-ffs
+crw-rw----    1 root     video      81,   2 Sep 28 20:21 v4l-subdev0
+crw-rw----    1 root     video      81,   3 Sep 28 20:21 v4l-subdev1
+crw-rw----    1 root     video      81,  12 Sep 28 20:21 v4l-subdev10
+crw-rw----    1 root     video      81,  13 Sep 28 20:21 v4l-subdev11
+crw-rw----    1 root     video      81,  14 Sep 28 20:21 v4l-subdev12
+crw-rw----    1 root     video      81,  15 Sep 28 20:21 v4l-subdev13
+crw-rw----    1 root     video      81,   4 Sep 28 20:21 v4l-subdev2
+crw-rw----    1 root     video      81,   5 Sep 28 20:21 v4l-subdev3
+crw-rw----    1 root     video      81,   6 Sep 28 20:21 v4l-subdev4
+crw-rw----    1 root     video      81,   7 Sep 28 20:21 v4l-subdev5
+crw-rw----    1 root     video      81,   8 Sep 28 20:21 v4l-subdev6
+crw-rw----    1 root     video      81,   9 Sep 28 20:21 v4l-subdev7
+crw-rw----    1 root     video      81,  10 Sep 28 20:21 v4l-subdev8
+crw-rw----    1 root     video      81,  11 Sep 28 20:21 v4l-subdev9
+crw-rw----    1 root     video      81,   0 Sep 28 20:21 video0
+crw-rw----    1 root     video      81,   1 Sep 28 20:21 video1
+crw-------    1 root     root       10, 130 Sep 28 20:21 watchdog
+crw-------    1 root     root      250,   0 Sep 28 20:21 watchdog0
+crw-rw-rw-    1 root     root        1,   5 Sep 28 20:21 zero
+
+/dev/block:
+total 0
+lrwxrwxrwx    1 root     root            10 Sep 28 20:21 179:0 -> ../mmcblk0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:0 -> ../mtdblock0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:1 -> ../mtdblock1
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:2 -> ../mtdblock2
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:3 -> ../mtdblock3
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:4 -> ../mtdblock4
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:5 -> ../mtdblock5
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 31:6 -> ../mtdblock6
+
+/dev/char:
+total 0
+lrwxrwxrwx    1 root     root            11 Sep 28 20:21 10:130 -> ../watchdog
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 10:53 -> ../sunxi_eise
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 10:54 -> ../sunxi_ise
+lrwxrwxrwx    1 root     root            19 Sep 28 20:21 10:55 -> ../memory_bandwidth
+lrwxrwxrwx    1 root     root            21 Sep 28 20:21 10:56 -> ../network_throughput
+lrwxrwxrwx    1 root     root            18 Sep 28 20:21 10:57 -> ../network_latency
+lrwxrwxrwx    1 root     root            18 Sep 28 20:21 10:58 -> ../cpu_dma_latency
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 10:59 -> ../sunxi-wlan
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 10:60 -> ../sunxi-reg
+lrwxrwxrwx    1 root     root            17 Sep 28 20:21 10:61 -> ../sunxi_soc_info
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 10:62 -> ../rfkill
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 10:63 -> ../ion
+lrwxrwxrwx    1 root     root            16 Sep 28 20:21 116:0 -> ../snd/controlC0
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 116:16 -> ../snd/pcmC0D0p
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 116:24 -> ../snd/pcmC0D0c
+lrwxrwxrwx    1 root     root            16 Sep 28 20:21 116:32 -> ../snd/controlC1
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 116:48 -> ../snd/pcmC1D0p
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 116:56 -> ../snd/pcmC1D0c
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 13:64 -> ../input/event0
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 13:65 -> ../input/event1
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 13:66 -> ../input/event2
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 13:67 -> ../input/event3
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 150:0 -> ../cedar_dev
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 1:1 -> ../mem
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 1:11 -> ../kmsg
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 1:2 -> ../kmem
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 1:3 -> ../null
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 1:5 -> ../zero
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 1:7 -> ../full
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 1:8 -> ../random
+lrwxrwxrwx    1 root     root            10 Sep 28 20:21 1:9 -> ../urandom
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 246:0 -> ../hdmi
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 247:0 -> ../g2d
+lrwxrwxrwx    1 root     root             8 Sep 28 20:21 248:0 -> ../ttyS0
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 249:0 -> ../disp
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 250:0 -> ../watchdog0
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 252:0 -> ../media0
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 253:0 -> ../rtc0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 254:0 -> ../gpiochip0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 254:1 -> ../gpiochip1
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 254:2 -> ../gpiochip2
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:0 -> ../fb0
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:1 -> ../fb1
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:2 -> ../fb2
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:3 -> ../fb3
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:4 -> ../fb4
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:5 -> ../fb5
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:6 -> ../fb6
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 29:7 -> ../fb7
+lrwxrwxrwx    1 root     root             6 Sep 28 20:21 5:0 -> ../tty
+lrwxrwxrwx    1 root     root            10 Sep 28 20:21 5:1 -> ../console
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 5:2 -> ../ptmx
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 81:0 -> ../video0
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 81:1 -> ../video1
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:10 -> ../v4l-subdev8
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:11 -> ../v4l-subdev9
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 81:12 -> ../v4l-subdev10
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 81:13 -> ../v4l-subdev11
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 81:14 -> ../v4l-subdev12
+lrwxrwxrwx    1 root     root            15 Sep 28 20:21 81:15 -> ../v4l-subdev13
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:2 -> ../v4l-subdev0
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:3 -> ../v4l-subdev1
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:4 -> ../v4l-subdev2
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:5 -> ../v4l-subdev3
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:6 -> ../v4l-subdev4
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:7 -> ../v4l-subdev5
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:8 -> ../v4l-subdev6
+lrwxrwxrwx    1 root     root            14 Sep 28 20:21 81:9 -> ../v4l-subdev7
+lrwxrwxrwx    1 root     root             8 Sep 28 20:21 89:0 -> ../i2c-0
+lrwxrwxrwx    1 root     root             8 Sep 28 20:21 89:1 -> ../i2c-1
+lrwxrwxrwx    1 root     root             8 Sep 28 20:21 89:2 -> ../i2c-2
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:0 -> ../mtd0
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:1 -> ../mtd0ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:10 -> ../mtd5
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:11 -> ../mtd5ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:12 -> ../mtd6
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:13 -> ../mtd6ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:2 -> ../mtd1
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:3 -> ../mtd1ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:4 -> ../mtd2
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:5 -> ../mtd2ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:6 -> ../mtd3
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:7 -> ../mtd3ro
+lrwxrwxrwx    1 root     root             7 Sep 28 20:21 90:8 -> ../mtd4
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 90:9 -> ../mtd4ro
+
+/dev/disk:
+total 0
+drwxr-xr-x    2 root     root            60 Sep 28 20:21 by-id
+drwxr-xr-x    2 root     root            60 Sep 28 20:21 by-path
+drwxr-xr-x    2 root     root            60 Sep 28 20:21 by-uuid
+
+/dev/disk/by-id:
+total 0
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 mmc-SU01G_0x0222de84 -> ../../mmcblk0
+
+/dev/disk/by-path:
+total 0
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 platform-sdc0 -> ../../mmcblk0
+
+/dev/disk/by-uuid:
+total 0
+lrwxrwxrwx    1 root     root            13 Sep 28 20:21 3867-1B01 -> ../../mmcblk0
+
+/dev/input:
+total 0
+drwxr-xr-x    2 root     root            80 Sep 28 20:21 by-path
+crw-rw----    1 root     input      13,  64 Sep 28 20:21 event0
+crw-rw----    1 root     input      13,  65 Sep 28 20:21 event1
+crw-rw----    1 root     input      13,  66 Sep 28 20:21 event2
+crw-rw----    1 root     input      13,  67 Sep 28 20:21 event3
+
+/dev/input/by-path:
+total 0
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 platform-axp22x-powerkey-event -> ../event1
+lrwxrwxrwx    1 root     root             9 Sep 28 20:21 platform-gpiokey-event -> ../event2
+
+/dev/pts:
+total 0
+crw--w----    1 root     tty       136,   0 Sep 28 21:25 0
+c---------    1 root     root        5,   2 Sep 28 20:21 ptmx
+
+/dev/shm:
+total 0
+
+/dev/snd:
+total 0
+drwxr-xr-x    2 root     root            80 Sep 28 20:21 by-path
+crw-rw----    1 root     audio     116,   0 Sep 28 20:21 controlC0
+crw-rw----    1 root     audio     116,  32 Sep 28 20:21 controlC1
+crw-rw----    1 root     audio     116,  24 Sep 28 20:21 pcmC0D0c
+crw-rw----    1 root     audio     116,  16 Sep 28 20:21 pcmC0D0p
+crw-rw----    1 root     audio     116,  56 Sep 28 20:21 pcmC1D0c
+crw-rw----    1 root     audio     116,  48 Sep 28 20:21 pcmC1D0p
+
+/dev/snd/by-path:
+total 0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 platform-sndcodec -> ../controlC0
+lrwxrwxrwx    1 root     root            12 Sep 28 20:21 platform-sndhdmi -> ../controlC1
+
+/dev/usb-ffs:
+total 0
+dr-x------    1 2000     2000             0 Sep 28 20:21 adb
+
+/dev/usb-ffs/adb:
+total 0
+-rw-------    1 2000     2000             0 Sep 28 20:21 ep0
+-rw-------    1 2000     2000             0 Sep 28 20:23 ep1
+-rw-------    1 2000     2000             0 Sep 28 20:23 ep2

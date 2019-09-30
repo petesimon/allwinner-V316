@@ -1,0 +1,208 @@
+Linux sun8iw12p1 4.9.118 #21 SMP PREEMPT Thu Mar 28 18:26:53 CST 2019 armv7l GNU/Linux-------------------
+[    0.997024] sunxi-mmc sdc0: regulator prop vmmc,str vcc-sdc
+[    0.997035] sunxi-mmc sdc0: Can't get vqmmc regulator string
+[    0.997046] sunxi-mmc sdc0: Can't get vdmmc regulator string
+[    0.997059] sunxi-mmc sdc0: regulator prop vdmmc33sw,str vcc33-pf
+[    0.997069] sunxi-mmc sdc0: Can't get vdmmc18sw regulator string
+[    0.997081] sunxi-mmc sdc0: regulator prop vqmmc33sw,str vcc33-pf
+[    0.997091] sunxi-mmc sdc0: Can't get vqmmc18sw regulator string
+[    0.997146] get() with no identifier
+[    0.997151] get() with no identifier
+[    0.997235] get() with no identifier
+[    0.997262] get() with no identifier
+[    0.997272] sunxi-mmc sdc0: No vmmc regulator found
+[    0.997281] sunxi-mmc sdc0: No vqmmc regulator found
+[    0.997289] sunxi-mmc sdc0: No vdmmc regulator found
+[    0.997297] sunxi-mmc sdc0: No vd18sw regulator found
+[    0.997305] sunxi-mmc sdc0: No vq18sw regulator found
+[    0.998856] sunxi-mmc sdc0: set host busy
+[    0.998934] sunxi-mmc sdc0: Got CD GPIO
+[    1.000075] sunxi-mmc sdc0: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.021803] sunxi-mmc sdc0: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.051962] sunxi-mmc sdc0: detmode:gpio irq
+[    1.052446] sunxi-mmc sdc1: SD/MMC/SDIO Host Controller Driver(v3.20 2019-3-7 15:56)
+[    1.052539] sunxi-mmc sdc1: Can't get vmmc regulator string
+[    1.052545] sunxi-mmc sdc1: Can't get vqmmc regulator string
+[    1.052551] sunxi-mmc sdc1: Can't get vdmmc regulator string
+[    1.052556] sunxi-mmc sdc1: Can't get vdmmc33sw regulator string
+[    1.052561] sunxi-mmc sdc1: Can't get vdmmc18sw regulator string
+[    1.052567] sunxi-mmc sdc1: Can't get vqmmc33sw regulator string
+[    1.052572] sunxi-mmc sdc1: Can't get vqmmc18sw regulator string
+[    1.052575] get() with no identifier
+[    1.052578] get() with no identifier
+[    1.052580] get() with no identifier
+[    1.052582] get() with no identifier
+[    1.052584] get() with no identifier
+[    1.052586] get() with no identifier
+[    1.052588] get() with no identifier
+[    1.052593] sunxi-mmc sdc1: No vmmc regulator found
+[    1.052597] sunxi-mmc sdc1: No vqmmc regulator found
+[    1.052601] sunxi-mmc sdc1: No vdmmc regulator found
+[    1.052606] sunxi-mmc sdc1: No vd33sw regulator found
+[    1.052610] sunxi-mmc sdc1: No vd18sw regulator found
+[    1.052614] sunxi-mmc sdc1: No vq33sw regulator found
+[    1.052619] sunxi-mmc sdc1: No vq18sw regulator found
+[    1.052815] sunxi-mmc sdc0: smc 0 p0 err, cmd 52, RTO !!
+[    1.053072] sunxi-mmc sdc1: set host busy
+[    1.053129] mmc:failed to get gpios
+[    1.053429] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.053462] sunxi-mmc sdc1: no vqmmc,Check if there is regulator
+[    1.053726] sunxi-mmc sdc0: smc 0 p0 err, cmd 52, RTO !!
+[    1.053767] sunxi-mmc sdc0: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.056236] sunxi-mmc sdc0: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.058431] sunxi-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    1.059263] sunxi-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    1.060092] sunxi-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    1.060922] sunxi-mmc sdc0: smc 0 p0 err, cmd 5, RTO !!
+[    1.061578] sunxi-mmc sdc0: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.064014] sunxi-mmc sdc0: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.081752] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.111761] sunxi-mmc sdc1: detmode:manually by software
+[    1.122529] inv-mpu6050-i2c 2-0068: mounting matrix not found: using identity...
+[    1.123237] sunxi_i2c_do_xfer()1907 - [i2c2] incomplete xfer (status: 0x20, dev addr: 0x68)
+[    1.123343] inv-mpu6050-i2c: probe of 2-0068 failed with error -70
+[    1.128782] gpio-spk setting ok
+[    1.129603] mmc0: host does not support reading read-only switch, assuming write-enable
+[    1.129625] sunxi-mmc sdc0: sdc set ios:clk 25000000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    1.129886] sunxi-mmc sdc0: sdc set ios:clk 25000000Hz bm PP pm ON vdd 21 width 4 timing LEGACY(SDR12) dt B
+[    1.129935] mmc0: new SD card at address e624
+[    1.130622] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INL_VIR
+[    1.130632] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INL_VIR -> AIF2 DACL Switch -> AIF1 AD0L Mixer
+[    1.130643] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INR_VIR
+[    1.130649] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INR_VIR -> AIF2 DACR Switch -> AIF1 AD0L Mixer
+[    1.130658] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INR_VIR
+[    1.130664] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INR_VIR -> AIF2 DACR Switch -> AIF1 AD0R Mixer
+[    1.130674] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INL_VIR
+[    1.130680] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INL_VIR -> AIF2 DACL Switch -> AIF1 AD0R Mixer
+[    1.130687] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INL_VIR
+[    1.130693] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INL_VIR -> AIF2 DACL Switch -> AIF1 AD1L Mixer
+[    1.130704] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INR_VIR
+[    1.130710] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INR_VIR -> AIF2 DACR Switch -> AIF1 AD1R Mixer
+[    1.130742] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INL_VIR
+[    1.130748] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INL_VIR -> AIF2DACL Switch -> DACL Mixer
+[    1.130764] sunxi-internal-codec codec: ASoC: no source widget found for AIF2INR_VIR
+[    1.130770] sunxi-internal-codec codec: ASoC: Failed to add route AIF2INR_VIR -> AIF2DACR Switch -> DACR Mixer
+[    1.131451] sunxi-codec-machine sndcodec: codec-aif1 <-> i2s mapping ok
+[    1.135013] sndhdmi sndhdmi: audiohdmi-dai <-> audiohdmi mapping ok
+[    1.135162] mmcblk0: mmc0:e624 SU01G 969 MiB 
+[    1.136899]  mmcblk0:
+[    1.137291] NET: Registered protocol family 17
+[    1.137335] NET: Registered protocol family 15
+[    1.137341] lib80211: common routines for IEEE802.11 drivers
+[    1.137347] lib80211_crypt: registered algorithm 'NULL'
+[    1.137351] lib80211_crypt: registered algorithm 'WEP'
+[    1.137355] lib80211_crypt: registered algorithm 'CCMP'
+[    1.137359] lib80211_crypt: registered algorithm 'TKIP'
+[    1.138485] sid_get_phy_base()290 - Failed to find "" in dts.
+[    1.138525] sid_get_phy_base()290 - Failed to find "" in dts.
+[    1.139020] sid_get_phy_base()290 - Failed to find "" in dts.
+[    1.139350] sid_efuse_key_is_readable()701 - The key thermal_sensor write protect bit not burned!
+[    1.139398] sid_get_phy_base()290 - Failed to find "" in dts.
+[    1.139737] sid_get_phy_base()290 - Failed to find "" in dts.
+[    1.143273] Registering SWP/SWPB emulation handler
+[    1.145116] HDMI 2.0 driver init start!
+[    1.145128] boot_hdmi=false
+[    1.145411] Get hdmi_power0:vcc18-hdmi
+[    1.145659] Get hdmi_power1:vdd09-hdmi
+[    1.342101] [DISP] disp_device_attached_and_enable,line:223:
+[    1.342112] attached ok, mgr0<-->dev0
+[    1.342116] [DISP] disp_device_attached_and_enable,line:236:
+[    1.342125] type:1,mode:0,fmt:rgb,bits:8bits,eotf:4,cs:0 dvi_hdmi:2, range:2 scan:0 ratio:8
+[    1.342450] HDMI2.0 module init end
+[    1.347832] input: gpiokey as /devices/platform/soc/gpiokey/input/input2
+[    1.349149] input: sunchip-gpioirkey as /devices/virtual/input/input3
+[    1.681941] sunxi_i2c_do_xfer()1907 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+[    1.681961] ft6236 1-0038: failed to read from controller: -70
+[    1.682006] ft6236: probe of 1-0038 failed with error -70
+[    1.682128] sunxi-rtc rtc: setting system clock to 2019-09-28 20:21:36 UTC (1569702096)
+[    1.683024] axp22x_dcdc2: incomplete constraints, leaving on
+[    1.683100] axp22x_dcdc3: incomplete constraints, leaving on
+[    1.683174] axp22x_dcdc5: incomplete constraints, leaving on
+[    1.683455] axp22x_eldo3: incomplete constraints, leaving on
+[    1.683743] axp22x_dc5ldo: incomplete constraints, leaving on
+[    1.683747] ALSA device list:
+[    1.683751]   #0: audiocodec
+[    1.683754]   #1: sndhdmi
+[    1.686315] VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+[    1.688126] Freeing unused kernel memory: 1024K
+[    2.118641] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    2.121214] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    2.122623] sunxi-mmc sdc1: smc 1 p1 err, cmd 8, RE !!
+[    2.122956] sunxi-mmc sdc1: smc 1 p1 err, cmd 5, RE !!
+[    2.123270] sunxi-mmc sdc1: smc 1 p1 err, cmd 5, RE !!
+[    2.123650] sunxi-mmc sdc1: smc 1 p1 err, cmd 5, RE !!
+[    2.124071] sunxi-mmc sdc1: smc 1 p1 err, cmd 5, RE !!
+[    2.124396] sunxi-mmc sdc1: smc 1 p1 err, cmd 55, RE !!
+[    2.124718] sunxi-mmc sdc1: smc 1 p1 err, cmd 55, RE !!
+[    2.125040] sunxi-mmc sdc1: smc 1 p1 err, cmd 55, RE !!
+[    2.125102] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm OD pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[    2.125713] sunxi-mmc sdc1: smc 1 p1 err, cmd 1, RE !!
+[    2.125764] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+[    2.369675] sunxi ise version 2.0 
+[    2.370070] [ISE]ISE device register success! 0
+[    2.370430] [ISE]irq_id = 295
+[    2.370495] [ISE]Request ISE Irq success! irq_id = 295, return 0
+[    2.376549] sunxi eise version 1.0 
+[    2.377022] [EISE]EISE device register success! 0
+[    2.377406] [EISE]irq_id = 296
+[    2.377474] [EISE]Request EISE Irq success! irq_id = 296, return 0
+[    2.752775] random: crng init done
+[    2.760775] udevd[741]: starting version 3.2
+[    2.830842] udevd[742]: starting eudev-3.2
+[    4.436722] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.436770] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.437336] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.437775] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.438135] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.438496] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.589478] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.590041] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.590503] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.590929] sid_get_phy_base()290 - Failed to find "" in dts.
+[    4.618984] into set sensor hfilp the value:0 
+[    4.619295] into set sensor hfilp the value:0 
+[    4.715599] into set sensor hfilp the value:0 
+[    4.715915] into set sensor hfilp the value:0 
+[    5.095927] sid_get_phy_base()290 - Failed to find "" in dts.
+[    5.152347] hdmi_hpd_sys_config_release
+[    5.331130] file system registered
+[    5.339334] Mass Storage Function, version: 2009/09/11
+[    5.339350] LUN: removable file: (no medium)
+[    5.536733] read descriptors
+[    5.536750] read strings
+[   14.328354] android_work: sent uevent USB_STATE=CONNECTED
+[   14.341344] configfs-gadget gadget: high-speed config #1: c
+[   14.341582] android_work: sent uevent USB_STATE=CONFIGURED
+[   14.652515] android_work: sent uevent USB_STATE=DISCONNECTED
+[   14.868991] ffs_data_put(): freeing
+[   14.897002] read descriptors
+[   14.897028] read strings
+[   17.124187] android_work: sent uevent USB_STATE=CONNECTED
+[   17.146402] configfs-gadget gadget: high-speed config #1: c
+[   17.146627] android_work: sent uevent USB_STATE=CONFIGURED
+[   62.381956] android_work: sent uevent USB_STATE=DISCONNECTED
+[   62.382558] android_work: did not send uevent (0 0   (null))
+[   62.383046] read descriptors
+[   62.383068] read strings
+[   62.982180] [DISP] disp_device_attached_and_enable,line:223:
+[   62.982197] attached ok, mgr0<-->dev0
+[   62.982205] [DISP] disp_device_attached_and_enable,line:236:
+[   62.982219] type:1,mode:0,fmt:rgb,bits:8bits,eotf:4,cs:0 dvi_hdmi:2, range:2 scan:0 ratio:8
+[   90.595835] ffs_data_put(): freeing
+[   90.607709] read descriptors
+[   90.607735] read strings
+[   92.851884] android_work: sent uevent USB_STATE=CONNECTED
+[   92.873159] configfs-gadget gadget: high-speed config #1: c
+[   92.873329] android_work: sent uevent USB_STATE=CONFIGURED
+[  308.894511] adbd (1998): /proc/1998/oom_adj is deprecated, please use /proc/1998/oom_score_adj instead.------------------
+Module                  Size  Used by    Not tainted
+sunxi_eise              7477  0 
+sunxi_ise               7350  0 
+vin_v4l2              134889  7 
+imx386_mipi            11976  0 
+vin_io                 25398  4 vin_v4l2,imx386_mipi
+videobuf2_v4l2         13018  1 vin_v4l2
+videobuf2_dma_contig     9087  1 vin_v4l2
+videobuf2_memops        1521  1 videobuf2_dma_contig
+videobuf2_core         26308  2 vin_v4l2,videobuf2_v4l2----------------
+ls: /sys/class/drm/: No such file or directory

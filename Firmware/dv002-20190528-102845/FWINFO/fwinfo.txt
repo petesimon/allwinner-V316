@@ -1,0 +1,25 @@
+FWINFO 
+Manufacturer: 
+   Sunchip
+Build by: 
+   dv002
+Product type: 
+   V316
+Firmware time: 
+   2019-05-28 10:28:45
+Updated date: 
+   20190219
+Linux kernel version: 
+4.9.118
+Software version: 
+   V3.0
+LCD touch screen: 
+   Yes 
+LCD resolution: 
+   320
+    x 
+   240
+LCD model:  
+   st7789v
+Sensor model:  
+   Imx386

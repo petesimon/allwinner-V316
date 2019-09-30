@@ -1,0 +1,144 @@
+/usr/bin/binwalk full_img.fex
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+344332        0x5410C         SHA256 hash constants, little endian
+350810        0x55A5A         Unix path: /arch/arm/include/kernel/user_ta.h
+356444        0x5705C         Unix path: /arch/arm/mm/tee_mm.c
+357672        0x57528         Unix path: /arch/arm/pta/interrupt_tests.c
+362926        0x589AE         Unix path: /lib/libtomcrypt/src/tee_ltc_provider.c
+539436        0x83B2C         CRC32 polynomial table, little endian
+555560        0x87A28         Android bootimg, kernel size: 2037543936 bytes, kernel addr: 0x206F7420, ramdisk size: 1684104562 bytes, ramdisk addr: 0x72617020, product name: "ash read :offset %x, %d bytes %s"
+673636        0xA4764         YAFFS filesystem
+673660        0xA477C         YAFFS filesystem
+679944        0xA6008         YAFFS filesystem
+680016        0xA6050         YAFFS filesystem
+682320        0xA6950         YAFFS filesystem
+1048576       0x100000        uImage header, header size: 64 bytes, header CRC: 0xB214E4D8, created: 2019-05-28 02:10:13, image size: 3036536 bytes, Data Address: 0x40008000, Entry Point: 0x40008000, data CRC: 0xB8A2DF79, OS: Linux, CPU: ARM, image type: OS Kernel Image, compression type: none, image name: "Linux-4.9.118"
+1048676       0x100064        Linux kernel ARM boot executable zImage (little-endian), load address: "0x00000000", end address: "0x002E5578"
+1065303       0x104157        gzip compressed data, maximum compression, from Unix, NULL date (1970-01-01 00:00:00)
+4194304       0x400000        Squashfs filesystem, little endian, version 4.0, compression:gzip, size: 10536576 bytes, 1110 inodes, blocksize: 131072 bytes, created: 2019-05-28 02:29:08
+15204432      0xE80050        Zlib compressed data, compressed
+15206612      0xE808D4        JFFS2 filesystem, little endian
+15206728      0xE80948        Zlib compressed data, compressed
+15208448      0xE81000        JFFS2 filesystem, little endian
+15220816      0xE84050        Zlib compressed data, compressed
+15221356      0xE8426C        Zlib compressed data, compressed
+15222924      0xE8488C        Zlib compressed data, compressed
+15223208      0xE849A8        JFFS2 filesystem, little endian
+15223600      0xE84B30        Zlib compressed data, compressed
+15224404      0xE84E54        Zlib compressed data, compressed
+15224628      0xE84F34        JFFS2 filesystem, little endian
+15233104      0xE87050        Zlib compressed data, compressed
+15233592      0xE87238        Zlib compressed data, compressed
+15233964      0xE873AC        Zlib compressed data, compressed
+15234720      0xE876A0        Zlib compressed data, compressed
+15235504      0xE879B0        JFFS2 filesystem, little endian
+15235768      0xE87AB8        Zlib compressed data, compressed
+15237120      0xE88000        JFFS2 filesystem, little endian
+15261776      0xE8E050        Zlib compressed data, compressed
+15261988      0xE8E124        JFFS2 filesystem, little endian
+15262184      0xE8E1E8        Zlib compressed data, compressed
+15263928      0xE8E8B8        Zlib compressed data, compressed
+15264172      0xE8E9AC        Zlib compressed data, compressed
+15265792      0xE8F000        JFFS2 filesystem, little endian
+15298640      0xE97050        Zlib compressed data, compressed
+15299292      0xE972DC        Zlib compressed data, compressed
+15300280      0xE976B8        Zlib compressed data, compressed
+15301048      0xE979B8        Zlib compressed data, compressed
+15301448      0xE97B48        JFFS2 filesystem, little endian
+15301680      0xE97C30        Zlib compressed data, compressed
+15302656      0xE98000        JFFS2 filesystem, little endian
+15310928      0xE9A050        Zlib compressed data, compressed
+15311396      0xE9A224        JFFS2 filesystem, little endian
+15311532      0xE9A2AC        Zlib compressed data, compressed
+15312848      0xE9A7D0        Zlib compressed data, compressed
+15313936      0xE9AC10        Zlib compressed data, compressed
+15315024      0xE9B050        Zlib compressed data, compressed
+15316348      0xE9B57C        JFFS2 filesystem, little endian
+15316460      0xE9B5EC        Zlib compressed data, compressed
+15316920      0xE9B7B8        Zlib compressed data, compressed
+15318004      0xE9BBF4        JFFS2 filesystem, little endian
+15318116      0xE9BC64        Zlib compressed data, compressed
+15319120      0xE9C050        Zlib compressed data, compressed
+15319776      0xE9C2E0        JFFS2 filesystem, little endian
+15319888      0xE9C350        Zlib compressed data, compressed
+15322704      0xE9CE50        Zlib compressed data, compressed
+15323216      0xE9D050        Zlib compressed data, compressed
+15324788      0xE9D674        JFFS2 filesystem, little endian
+15324904      0xE9D6E8        Zlib compressed data, compressed
+15327232      0xE9E000        JFFS2 filesystem, little endian
+15405928      0xEB1368        Zlib compressed data, compressed
+15406684      0xEB165C        Zlib compressed data, compressed
+15406980      0xEB1784        JFFS2 filesystem, little endian
+15417424      0xEB4050        Zlib compressed data, compressed
+15417900      0xEB422C        JFFS2 filesystem, little endian
+15418036      0xEB42B4        Zlib compressed data, compressed
+15418248      0xEB4388        JFFS2 filesystem, little endian
+15418520      0xEB4498        Zlib compressed data, compressed
+15420400      0xEB4BF0        Zlib compressed data, compressed
+15420652      0xEB4CEC        Zlib compressed data, compressed
+15421520      0xEB5050        Zlib compressed data, compressed
+15422080      0xEB5280        Zlib compressed data, compressed
+15424128      0xEB5A80        Zlib compressed data, compressed
+15424884      0xEB5D74        JFFS2 filesystem, little endian
+15425132      0xEB5E6C        Zlib compressed data, compressed
+15425536      0xEB6000        JFFS2 filesystem, little endian
+15429712      0xEB7050        Zlib compressed data, compressed
+15431608      0xEB77B8        Zlib compressed data, compressed
+15432668      0xEB7BDC        Zlib compressed data, compressed
+15432828      0xEB7C7C        JFFS2 filesystem, little endian
+15450192      0xEBC050        Zlib compressed data, compressed
+15451048      0xEBC3A8        JFFS2 filesystem, little endian
+15451164      0xEBC41C        Zlib compressed data, compressed
+15452740      0xEBCA44        Zlib compressed data, compressed
+15454208      0xEBD000        JFFS2 filesystem, little endian
+15458384      0xEBE050        Zlib compressed data, compressed
+15460084      0xEBE6F4        Zlib compressed data, compressed
+15461792      0xEBEDA0        JFFS2 filesystem, little endian
+15461912      0xEBEE18        Zlib compressed data, compressed
+15462400      0xEBF000        JFFS2 filesystem, little endian
+15491152      0xEC6050        Zlib compressed data, compressed
+15491452      0xEC617C        Zlib compressed data, compressed
+15491960      0xEC6378        Zlib compressed data, compressed
+15493328      0xEC68D0        JFFS2 filesystem, little endian
+15493444      0xEC6944        Zlib compressed data, compressed
+15495248      0xEC7050        Zlib compressed data, compressed
+15496500      0xEC7534        Zlib compressed data, compressed
+15498084      0xEC7B64        Zlib compressed data, compressed
+15498464      0xEC7CE0        JFFS2 filesystem, little endian
+15499108      0xEC7F64        Zlib compressed data, compressed
+15499264      0xEC8000        JFFS2 filesystem, little endian
+15528016      0xECF050        Zlib compressed data, compressed
+15528676      0xECF2E4        Zlib compressed data, compressed
+15529664      0xECF6C0        Zlib compressed data, compressed
+15530840      0xECFB58        Zlib compressed data, compressed
+15530936      0xECFBB8        JFFS2 filesystem, little endian
+15531500      0xECFDEC        Zlib compressed data, compressed
+15532032      0xED0000        JFFS2 filesystem, little endian
+15552592      0xED5050        Zlib compressed data, compressed
+15554068      0xED5614        JFFS2 filesystem, little endian
+15554204      0xED569C        Zlib compressed data, compressed
+15556608      0xED6000        JFFS2 filesystem, little endian
+15605840      0xEE2050        Zlib compressed data, compressed
+15607172      0xEE2584        JFFS2 filesystem, little endian
+15607296      0xEE2600        Zlib compressed data, compressed
+15609856      0xEE3000        JFFS2 filesystem, little endian
+15659088      0xEEF050        Zlib compressed data, compressed
+15659628      0xEEF26C        Zlib compressed data, compressed
+15660860      0xEEF73C        Zlib compressed data, compressed
+15662320      0xEEFCF0        JFFS2 filesystem, little endian
+15662456      0xEEFD78        Zlib compressed data, compressed
+15663104      0xEF0000        JFFS2 filesystem, little endian
+15683664      0xEF5050        Zlib compressed data, compressed
+15684680      0xEF5448        Zlib compressed data, compressed
+15685668      0xEF5824        Zlib compressed data, compressed
+15686452      0xEF5B34        Zlib compressed data, compressed
+15686800      0xEF5C90        Zlib compressed data, compressed
+15687680      0xEF6000        JFFS2 filesystem, little endian
+15716432      0xEFD050        Zlib compressed data, compressed
+15717380      0xEFD404        JFFS2 filesystem, little endian
+15717492      0xEFD474        Zlib compressed data, compressed
+15720448      0xEFE000        JFFS2 filesystem, little endian
+15859712      0xF20000        PC bitmap, Windows 3.x format,, 320 x 240 x 24
+
