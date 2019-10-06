@@ -2,12 +2,12 @@
 
 FULL_IMG.FEX size is 16777216 bytes, and 2-system.img size is 11010048 bytes
 
-HEX OFFSET | SIZE IN BYTES
+HEX OFFSET | SIZE IN BYTES | DESCRIPTION |           | DEVICE FILE
 
-0            1048576   uboot, with some yaffs
-0x100000     3145728   Linux boot kernel
-0x400000     11010048  system, all squashfs
-0xE80000     524288    config, all jffs
-0xF00000     131072    unknown data?
-0xF20000     393216    boot logo bitmap picture
-0xF80000     524288    null text
+0            1048576         uboot, with some yaffs    /dev/mtdblock0
+0x100000     3145728         Linux boot kernel         /dev/mtdblock1
+0x400000     11010048        system, all squashfs      /dev/mtdblock2
+0xE80000     524288          config, all jffs          /dev/mtdblock3
+0xF00000     131072          unknown data?             /dev/mtdblock4
+0xF20000     393216          boot logo bitmap picture  /dev/mtdblock5
+0xF80000     524288          null text                 /dev/mtdblock6
