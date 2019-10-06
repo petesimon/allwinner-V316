@@ -1,4 +1,4 @@
-#Allwinner V316 and V5 (not V3) action cam firmware backup script for Windows, with RAR compression.
+# Allwinner V316 and V5 (not V3) action cam firmware backup script for Windows, with RAR compression.
 
 Instructions:
 

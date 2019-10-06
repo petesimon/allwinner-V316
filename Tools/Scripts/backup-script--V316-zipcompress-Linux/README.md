@@ -1,4 +1,4 @@
-#Allwinner V316 backup script
+# Allwinner V316 backup script for Linux, with zip compression
 
 Allwinner V316 (Q6H) action camera firmware backup instructions for Linux:
 
