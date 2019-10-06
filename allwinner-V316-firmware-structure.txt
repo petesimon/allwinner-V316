@@ -1,0 +1,13 @@
+# Firmware structure for Allwinner V316 firmware
+
+FULL_IMG.FEX size is 16777216 bytes, and 2-system.img size is 11010048 bytes
+
+HEX OFFSET | SIZE IN BYTES
+
+0            1048576   uboot, with some yaffs
+0x100000     3145728   Linux boot kernel
+0x400000     11010048  system, all squashfs
+0xE80000     524288    config, all jffs
+0xF00000     131072    unknown data?
+0xF20000     393216    boot logo bitmap picture
+0xF80000     524288    null text
