@@ -13,6 +13,8 @@ Run FWINFO.BAT to get details about your Allwinner V316 firmware.
 
 FWINFO.TXT file, boot and shutdown logo files will be copied to FWINFO folder.
 
-Look in the FWINFO folder for new files. Open FWINFO.TXT file.
+Look in the FWINFO folder for new files. Open 'fwinfo.txt' file.
 
-Check GoPrawn.com action cam discussion forum for more details.
+Check https://www.GoPrawn.com action cam discussion forum 
+and the Facebook users groups http://fb.com/groups/allwinner4kcamerasusergroup
+for more details.
