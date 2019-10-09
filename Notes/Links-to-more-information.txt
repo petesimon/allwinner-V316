@@ -1,0 +1,35 @@
+﻿# Allwinner V316
+
+Photo album of the camera
+https://imgur.com/a/GZ7fqoI
+
+Forum thread on Goprawn forums
+https://is.gd/Vgcphy
+
+Users' groups on Facebook
+http://fb.com/groups/allwinner4kcamerasusergroup
+
+Message post on Facebook about the camera
+http://fb.com/760897871010120
+
+Unprocessed video samples. Download the files.
+http://pc.cd/XJDctalK
+and
+http://pc.cd/BFVctalK
+
+How to make a backup of the firmware
+https://youtu.be/QrhPxpFFMrc
+- but use a script written below
+- upload firmware backup to https://goo.gl/yU7HLA
+- Caution! do NOT flash load firmware into this camera!
+
+Allwinner V316 (Q6H) backup script for Windows, with RAR compression.
+https://www.dropbox.com/s/1c9r63yxxytv2wk/backup-script-rarcompress-V316.zip?dl=0
+
+Allwinner V316 (Q6H) backup script for * Linux * with zip compression.
+Works best in Debian, Ubuntu, Mint, Peppermint, Zorin, (etc).
+https://www.dropbox.com/s/njttfc9c3j23hyc/backup-script-linux-V316-zipcompress.zip?dl=0
+
+UNFEX REFEX FWINFO scripts for Windows.
+file "unfex-scripts-getfwinfo_20190923_V316.zip"
+https://www.dropbox.com/s/12xljkf9pbca2ch/unfex-scripts-getfwinfo_20190923_V316.zip?dl=0
