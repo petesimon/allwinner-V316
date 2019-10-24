@@ -1,0 +1,27 @@
+FWINFO 
+Manufacturer: 
+   Sunchip
+Build by: 
+   dv002
+Product type: 
+   V316
+Firmware time: 
+   2019-07-02 11:55:13
+Updated date: 
+   20190219
+Linux kernel version: 
+   4.9.118
+Software version: 
+   V3.0
+LCD resolution: 
+   320
+    x 
+   240
+LCD model:  
+   st7789v
+Sensor model:  
+   Imx386
+Sensor modules (drivers):
+   imx278_mipi , imx317_mipi , imx386_mipi
+Logo:
+   WELCOME / BYE BYE (freeway road)
